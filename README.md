@@ -1,2 +1,2 @@
-# tienda-ropa
+# tienda
 Proyecto de Desarrollo de Sistemas de Informacion
