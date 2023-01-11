@@ -1,0 +1,33 @@
+{% extends "core/base.html" %}
+
+{%block title%}portfolio{%endblock%}
+
+{% block background %}{%load static%}{% static 'core/img/promociones.jpg'%}{% endblock %}
+
+{% block content %}
+	{% for marca in marcas %}}
+	      <!-- Proyecto -->
+	      <div class="row project"> 
+		  
+		  <div class="col-lg-3 col-md-4 offset-lg-1">
+			      <img class="img-fluid" src="img/about-bg.jpg" alt="">
+	      	</div>	
+	        <div class="col-lg-7 col-md-8">
+	      		<h2 class="section-heading title">{{marca.talla}}</h2>   
+	          <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm....</p>
+	          <p><a href="http://google.com">Más información</a></p>
+	      	</div>
+	      </div>
+		  </div>
+	{% endfor %}
+{% endblock  %}
+
+
+{% block headers %}
+    <h1>Promociones</h1>
+	<span class="subheading">Bienvenidos </span>
+{% endblock %}
+
+
+
+

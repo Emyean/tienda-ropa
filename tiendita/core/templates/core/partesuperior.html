@@ -1,0 +1,33 @@
+{% extends "core/base.html" %}
+
+{%block title%}Home{%endblock%}
+
+{% block background %}{%load static%}{% static 'core/img/parte superio.webp'%}{% endblock %}
+
+{% block headers %}
+    <h1>Bienvenidos</h1>
+    <span class="subheading">Seccion Parte Superior</span>
+{% endblock %}
+
+{% block content %}
+   <div class="container">
+      <div class="row">   
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+          <img class="img-fluid avatar" src="img/avatar.jpg" alt="">
+        </div>
+        <div class="col-lg-7 col-md-8">
+          <h2 class="section-heading">Incluye: </h2>   
+          <p>-camisas</p> 
+          <p>-Blusas</p>
+          <p>-Acesorios</p>
+          <p>-Busos</p> 
+          <p>-ropa interior y carteras</p>
+        </div>
+      </div>  
+    </div>
+{% endblock  %}
+
+
+    
+
+

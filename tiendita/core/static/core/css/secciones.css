@@ -1,0 +1,17 @@
+body{
+    font-size:20px;
+    color:#212529;
+    font-family:Lora,'Times New Roman',serif;
+}
+.nav-dos{
+    list-style: none;
+}
+.nav-dos{
+    font-size: 16px;
+    font-weight: 800;
+    color: #0000;
+    position: absolute;
+    align-items: center;
+    width: 100%;
+
+}
